@@ -1,0 +1,48 @@
+.navigation{
+    width: 80%;
+    height: 3rem;
+    background-color: cadetblue;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.navigation h4{
+    color: #fff;
+    font-family: cursive;
+    font-size: 18px;
+    align-items: center;
+    place-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    border: 1px solid blue; 
+    border-radius: 10px;
+    width: 50%;
+    height: 150px;
+}
+
+.container h3{
+    letter-spacing: .5 rem;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.btn{
+    position: absolute;
+    bottom : 10px;
+    left: 70px;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    background-color: black;
+}
+
+.btn:hover{
+    color: black;
+    background-color: #fff;
+}
